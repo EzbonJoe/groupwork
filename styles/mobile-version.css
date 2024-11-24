@@ -1,0 +1,129 @@
+@media only screen and (max-width:412px){
+  nav{
+    display: none;
+  }
+
+  body{
+    padding-top: 50px;
+  }
+
+  .header-content{
+    display: none;
+  }
+
+  header{
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0;
+    position: fixed;
+    z-index: 1000;
+    right:0px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .mobile-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+
+  .burger-icon{
+    width: 30x;
+    height: 35px;
+  }
+
+  .burger-menu{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    z-index: 900;
+    background-color:#f6f8f0;
+    width: 100%;
+    transition: width 0.5s;
+  }
+
+  .burger-menu ul{
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .burger-menu ul li{
+      flex-basis: 100%;
+      border-top: 1px solid #615e5e;
+      list-style-type: none;
+  }
+
+
+  .burger-menu ul li:last-child{
+      flex-basis: 100%;
+      border-bottom: 1px solid #000;
+      list-style-type: none;
+  }
+
+  .burger-menu ul li a{
+      display: block;
+      height: 100%;
+      font-size: 1.6rem;
+      padding: 10px 0;
+      flex-basis: 100%;
+      text-align: center;
+      color: rgb(36, 33, 33);
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-decoration: none;
+  }
+
+  .burger-container{
+      display:block;
+      width: 40px;
+      height: 40px;
+      margin-right: 18px;
+      background-image: url(../icons/menu.png), url(../icons/close.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center, center left 50px;
+  }   
+
+
+  .site-title {
+    font-size: 1.5em; 
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    width: 35px; 
+    height: auto;
+  }
+
+  .website-name {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .bio-words {
+    font-size: 1.5em; 
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .achievement-item, .contribution-item {
+    border-radius: 5px;
+    font-size: 1.5rem;
+  }
+
+  .site-title {
+    font-size: 2.1em; 
+    margin-bottom: 10px;
+  }
+ 
+}
